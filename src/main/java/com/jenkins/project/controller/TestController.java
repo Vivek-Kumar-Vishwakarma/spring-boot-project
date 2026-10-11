@@ -11,4 +11,9 @@ public class TestController {
     public String getMsg(){
         return "Jenkins is working now...";
     }
+
+    @GetMapping("/data")
+    public String getData(){
+        return "Data is loading now...";
+    }
 }
